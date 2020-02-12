@@ -2,16 +2,7 @@
   "name": "gatsby-with-apollo",
   "description": "Gatsby with Apollo Boost",
   "version": "1.0.0",
-  "author": "Jason Lengstorf <jason@gatsbyjs.com>",
-  "dependencies": {
-    "@apollo/react-hooks": "^3.0.1",
-    "apollo-boost": "^0.4.4",
-    "gatsby": "^2.0.19",
-    "gatsby-source-graphql": "^2.0.6",
-    "isomorphic-fetch": "^2.2.1",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0"
-  },
+  "author": "Yusuf <akuyusuf27@gmail.com>",
   "keywords": [
     "gatsby",
     "apollo",
@@ -25,11 +16,19 @@
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "apollo-boost": "^0.4.7",
+    "gatsby": "^2.19.16",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.12.0",
+    "react-apollo-hooks": "^0.5.0",
+    "react-dom": "^16.12.0"
+  },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlengstorf/gatsby-with-apollo"
+    "url": "https://github.com/iamyuu/gatsby-with-apollo"
   }
 }
